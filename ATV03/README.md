@@ -9,15 +9,15 @@ duas provas e de um trabalho. Calcule e mostre a média.
 Comentários adicionados no código:
 
 ```
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane; //importa a classe JOptionPane da biblioteca swing.
 
-public class atv03 {
-    public static void main(String[] args) {
-        // Solicita a nota da primeira prova
+public class atv03 { // Define uma classe chamada atv03
+    public static void main(String[] args) { Define um método main que será o ponto de entrada do programa.
+        // Solicita a nota da primeira prova armazena o valor em uma variável String chamada nota1.
         String nota1 = JOptionPane.showInputDialog("Digite a nota da primeira prova:");
         double prova1 = Double.parseDouble(nota1); // converte a nota em string para double
 
-        // Solicita a nota da segunda prova
+        // Solicita a nota da segunda prova armazena o valor em uma variável String chamada nota2.
         String nota2 = JOptionPane.showInputDialog("Digite a nota da segunda prova:");
         double prova2 = Double.parseDouble(nota2); // converte a nota em string para double
 
